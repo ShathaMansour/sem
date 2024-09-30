@@ -8,6 +8,11 @@
     <artifactId>SEMethods</artifactId>
     <version>0.1.0.2</version>
 
+    <properties>
+        <maven.compiler.source>10</maven.compiler.source>
+        <maven.compiler.target>10</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -15,6 +20,8 @@
             <version>3.6.4</version>
         </dependency>
     </dependencies>
+
+
     <build>
         <plugins>
             <plugin>
